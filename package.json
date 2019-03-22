@@ -1,0 +1,30 @@
+{
+  "name": "react-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend server for the react-portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicocchi/react-portfolio-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicocchi/react-portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/Nicocchi/react-portfolio-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10"
+  }
+}
